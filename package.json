@@ -1,0 +1,29 @@
+{
+  "name": "is-printable-key-event",
+  "version": "1.0.0",
+  "description": "Detect whether a KeyboardEvent is caused by a printable key",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "webpack",
+    "test": "webpack; node test.js"
+  },
+  "keywords": [
+    "key",
+    "keyCode",
+    "keydown",
+    "keyup",
+    "keypress",
+    "DOM",
+    "event",
+    "KeyboardEvent"
+  ],
+  "author": "Jona Andersen <jona@ndrsn.org>",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^8.0.3",
+    "typescript": "4.0.2",
+    "webpack": "4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
