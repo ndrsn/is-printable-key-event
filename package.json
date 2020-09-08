@@ -1,6 +1,6 @@
 {
   "name": "is-printable-key-event",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Detect whether a KeyboardEvent is caused by a printable key",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,6 +18,13 @@
     "event",
     "KeyboardEvent"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndrsn/is-printable-key-event.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ndrsn/is-printable-key-event/issues"
+  },
   "author": "Jona Andersen <jona@ndrsn.org>",
   "license": "ISC",
   "devDependencies": {
