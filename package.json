@@ -1,6 +1,6 @@
 {
   "name": "is-printable-key-event",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Detect whether a KeyboardEvent is caused by a printable key",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
