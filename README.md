@@ -8,6 +8,21 @@ Detecting whether a DOM UI event key is printable has become more complicated si
 
 Instead, we rely on the W3C UI Events KeyboardEvent specification to determine whether a keyboard event is caused by a printable key press. A printable key here is defined by the W3C spec as a "key string", i.e. a "character typed by the user". To do this, we check the event's key attribute against a list of known non-printable keys (called "named key attribute values"). If the key is not in this list, we determine it to be printable.
 
+## Usage
+
+```js
+import isPrintableKeyEvent from "is-printable-key-event";
+
+element.addEventListener("keydown", function (event) {
+  if (isPrintableKeyEvent(event) === false) {
+    return; // ignore key down
+  }
+
+  // do something with input
+});
+
+```
+
 ## References
 
 https://www.aarongreenlee.com/blog/list-of-non-printable-keys-for-keyboard-events-when-using-event-key/
